@@ -1,0 +1,2 @@
+# Precios
+Vista de precios
