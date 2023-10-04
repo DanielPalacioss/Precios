@@ -1,0 +1,67 @@
+.seccion_planes
+{
+    margin: 0 auto;
+    display: flex;
+    width: 95%;
+    font-family: 'Bacasime Antique', serif;
+    font-family: 'Playfair', serif;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+.texto_cen
+{
+    text-align: center;
+}
+.titulo
+{
+    margin-top: 10px;
+    font-family: 'Bacasime Antique', serif;
+    font-family: 'Playfair', serif;
+    font-size: 40px;
+    color: white;
+}
+.precio{
+    font-size: 35px;
+    color: #64CCC5;
+}
+.planes{
+    font-size: 17px;
+    font-weight: 300;
+    background-color: #040D12;
+    color: aliceblue;
+    margin: 0 auto;
+    border: 10px white;
+    border-radius: 20px;
+    box-shadow: 10px -10px #EEEDED;
+    padding-bottom: 30px;
+    width: 24%;
+    box-sizing: border-box;
+}
+.btn-precio{
+    font-size: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    background: #5C8374;
+    border: 2px white;
+    border-radius: 5px;
+    padding: 2px 20px;
+}
+body{
+    background-color: #5C8374;
+}
+
+@media(max-width:1240px)
+{
+    .planes{
+        width: 47%;
+        margin-bottom: 20px;
+    }
+}
+@media(max-width:650px)
+{
+    .planes{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
